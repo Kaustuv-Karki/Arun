@@ -1,0 +1,44 @@
+.qual{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.qual > img{
+    margin: auto auto;
+    max-width: 600px;
+    width: 80%;
+}
+
+.qual__info{
+    background-color: #7510F7;
+    height: 400px;
+    width: 100%;
+}
+
+.qual__infoStuff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem auto;
+    width: 60vw;
+}
+
+.qual__infoStuff > h3{
+    color: white;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+.qual__infoStuff > p{
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 2rem;
+    color: white;
+}
+

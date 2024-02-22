@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__right > img{
+    height: 6rem;
+    margin-left: 2.6rem;
+}
+
+@media screen and (max-width: 768px){
+    .header__right > img{
+        height: 5rem;
+        margin-left: 1.2rem;
+    }
+}
+
+.logo__name{
+    padding-top: 1rem ;
+    font-family: 'Orbitron', cursive;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #7510F7 !important;
+    margin-left: 2.6rem;
+}

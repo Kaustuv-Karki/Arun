@@ -1,0 +1,44 @@
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 6rem;
+    align-items: center;
+    padding: 20px;
+}
+
+.userInfo__header{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #141c3a;
+}
+
+.userInfo__quote{
+    font-family: 'Architects Daughter', cursive;
+    color: rgba(10, 10, 10, 0.9);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+
+@media  screen and (max-width: 768px){
+    .userInfo__header{
+        font-size: 32px;
+        text-align: left;
+    }
+    .userInfo__quote{
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    
+}
+
+.userInfo__userImage{
+    max-height: 300px;
+    height: 30vh;
+    object-fit: contain;
+}

@@ -1,0 +1,80 @@
+.skills__container{
+    height: 40rem;
+}
+
+.skills__title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem 0rem;
+    color: #7510F7;
+}
+
+.marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 120px;
+    overflow-x: hidden;
+}
+
+.track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 40s linear infinite;
+}
+
+.track2 {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee2 40s linear infinite;
+}
+
+.content {
+    display: inline-block;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: white;
+    background-color: white;
+    text-shadow: -1px -1px 0 #7510F7, 1px -1px 0 #7510F7, -1px 1px 0 #7510F7, 1px 1px 0 #7510F7;
+}
+
+@media  screen and (max-width: 768px){
+    .marquee{
+        height: 80px;
+    }
+    .content{
+        font-size: 3rem;
+        text-shadow: -1px -1px 0 #7510F7, 1px -1px 0 #7510F7, -1px 1px 0 #7510F7, 1px 1px 0 #7510F7;
+    }
+    .skills__container{
+        height: 30rem;
+    }
+    
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes marquee2 {
+    from {
+            transform: translateX(-50%);
+        }
+    
+        to {
+            transform: translateX(0);
+        }
+}
