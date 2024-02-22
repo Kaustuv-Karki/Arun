@@ -1,7 +1,11 @@
 import React from "react";
 import "./Qual.css";
+import pdf from "../../assets/arun_resume.pdf";
 
 const Qual = () => {
+  const handleDownload = () => {
+    window.open(pdf);
+  };
   return (
     <div className="qual">
       <img
@@ -19,6 +23,9 @@ const Qual = () => {
             steady work ethic, I strive to achieve goals and explore new
             horizons.
           </p>
+        </div>
+        <div className="download__button" onClick={handleDownload}>
+          Download CV
         </div>
       </div>
     </div>
