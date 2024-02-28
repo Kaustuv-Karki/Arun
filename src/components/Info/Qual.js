@@ -19,9 +19,8 @@ const Qual = () => {
           <p className="text-red-500">
             As an ambitious and detail-oriented computer engineering student, I
             bring a passion for design, people skills, and an insatiable
-            curiosity to learn. With a constant thirst for knowledge and a
-            steady work ethic, I strive to achieve goals and explore new
-            horizons.
+            curiosity to learn. With a constant thirst for knowledge I strive to
+            achieve goals and explore new horizons.
           </p>
         </div>
         <div className="download__button" onClick={handleDownload}>

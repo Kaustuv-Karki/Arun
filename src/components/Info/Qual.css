@@ -3,6 +3,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    height: fit-content;
 }
 
 .qual > img{
@@ -27,16 +28,17 @@
 
 .qual__infoStuff > h3{
     color: white;
+    text-align: center;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-transform: capitalize;
 }
 
 .qual__infoStuff > p{
     margin-top: 30px;
     font-weight: 300;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: center;
     line-height: 2rem;
     color: white;
@@ -57,4 +59,36 @@
     background-color: white;
     color:#7510F7;
     transition: 100ms ease-in-out;
+}
+
+@media  screen and (max-width: 1100px){
+    .qual__infoStuff{
+        width: 80vw;
+        margin-bottom: 2rem ;
+    }
+    .qual__infoStuff > h3{
+        font-size: 2rem;
+    }
+    .qual__infoStuff > p{
+        font-size: 1.2rem;
+    }
+    .download__button{
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .qual__infoStuff{
+        width: 90vw;
+    }
+    .qual__infoStuff > h3{
+        font-size: 1.4rem;
+    }
+    .qual__infoStuff > p{
+        font-size: 1rem;
+    }
+    .download__button{
+        font-size: 1rem;
+    }
 }
