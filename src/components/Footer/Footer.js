@@ -8,11 +8,21 @@ const Footer = () => {
     <div className="footer">
       <div className="footer__text">
         <h1>A.S</h1>
-        <p>This is somethind I want to write.</p>
+        <p>Contact me for any information..</p>
       </div>
       <div className="footer__links">
-        <GitHubIcon className="footer__icons" />
-        <LinkedInIcon className="footer__icons" />
+        <a
+          href="https://github.com/ArunSubedi68"
+          target="_blank"
+          rel="noreferrer noopener">
+          <GitHubIcon className="footer__icons" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/arunsubedi/"
+          target="_blank"
+          rel="noreferrer noopener">
+          <LinkedInIcon className="footer__icons" />
+        </a>
       </div>
     </div>
   );

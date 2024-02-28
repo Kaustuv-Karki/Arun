@@ -9,6 +9,7 @@
 	-moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
 	border-radius: 20px;
+	cursor: pointer;
 }
 
 .card__box{
@@ -28,7 +29,7 @@
 	left: 0;
 	width: 100%;
 	height: 80%;
-	background: #000;
+	/* background: #000; */
 	object-fit: contain;
 	clip-path: circle(400px at center 100px);
 	transition: 0.5s;
@@ -79,7 +80,7 @@
 .card__options{
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .card__options > button {
@@ -96,7 +97,7 @@
 }
 
 .repo-button{
-	background-color: #187bcd !important;
+	background-color: #7510F7 !important;
 	color: white !important;
 	text-transform: inherit !important;
 }

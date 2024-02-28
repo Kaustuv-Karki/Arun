@@ -1,20 +1,23 @@
+import Football from "../assets/football.png";
+import CURD from "../assets/CRUD.png";
+import Password from "../assets/passmanager.png";
 export const projects = [
   {
-    title: "Grammar error correction",
-    image: "https://i.ibb.co/0y3yQd9/backgroundaaa.png",
-    github: "www.github.com",
+    title: "Football player Recommendation",
+    image: Football,
+    github: "https://github.com/ArunSubedi68",
     link: "www.link.com",
   },
   {
-    title: "Second Project",
-    image: "https://i.ibb.co/0y3yQd9/backgroundaaa.png",
-    github: "www.github.com",
+    title: "Password Manager",
+    image: Password,
+    github: "https://github.com/ArunSubedi68",
     link: "www.link.com",
   },
   {
-    title: "Third Project",
-    image: "https://i.ibb.co/0y3yQd9/backgroundaaa.png",
-    github: "www.github.com",
+    title: "CRUD web application",
+    image: CURD,
+    github: "https://github.com/ArunSubedi68",
     link: "www.link.com",
   },
 ];

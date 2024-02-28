@@ -12,7 +12,7 @@ const Card = ({ title, link, github, img }) => {
         <div className="card__content">
           <h2 className="card__title">{title}</h2>
           <div className="card__options">
-            <Button className="live-button">
+            {/* <Button className="live-button">
               <a
                 className="card__anchor"
                 href={link}
@@ -20,7 +20,7 @@ const Card = ({ title, link, github, img }) => {
                 rel="noreferrer">
                 Live site
               </a>
-            </Button>
+            </Button> */}
             <Button className="repo-button">
               <a
                 className="card__anchor"

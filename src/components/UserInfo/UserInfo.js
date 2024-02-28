@@ -1,5 +1,6 @@
 import React from "react";
 import "./UserInfo.css";
+import ProfileImage from "../../assets/profile.JPG";
 
 const UserInfo = () => {
   return (
@@ -12,11 +13,7 @@ const UserInfo = () => {
         I enjoy to make things pleasing to the eyes.
       </div>
       {/* </div> */}
-      <img
-        className="userInfo__userImage"
-        src="https://i.ibb.co/QdPJLNW/undraw-profile-pic-ic5t.png"
-        alt=""
-      />
+      <img className="userInfo__userImage" src={ProfileImage} alt="" />
     </div>
   );
 };
